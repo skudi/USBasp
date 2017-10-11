@@ -1,3 +1,4 @@
 *.o
 *.map
 firmware/*.bin
+firmware/*.hex
