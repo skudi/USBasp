@@ -339,8 +339,9 @@ int main(void) {
 	/* no pullups on USB and ISP pins */
 	PORTD = 0;
 	PORTB = 0;
-	/* all outputs except PD2 = INT0 */
-	DDRD = ~(1 << 2);
+	/* all PDx input */
+	/* MK-USBISP v3.0 */
+	DDRD = 0x00;
 
 	/* output SE0 for USB reset */
 	DDRB = ~0;
