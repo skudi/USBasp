@@ -5,7 +5,6 @@
  * Tabsize: 4
  * Copyright: (c) 2008 by OBJECTIVE DEVELOPMENT Software GmbH
  * License: GNU GPL v2 (see License.txt), GNU GPL v3 or proprietary (CommercialLicense.txt)
- * This Revision: $Id: usbportability.h 785 2010-05-30 17:57:07Z cs $
  */
 
 /*
@@ -23,6 +22,7 @@ Thanks to Oleg Semyonov for his help with the IAR tools port!
 
 #ifndef __usbportability_h_INCLUDED__
 #define __usbportability_h_INCLUDED__
+#include "usbconfig.h"
 
 /* We check explicitly for IAR and CodeVision. Default is avr-gcc/avr-libc. */
 
